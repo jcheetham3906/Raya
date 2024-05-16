@@ -59,6 +59,7 @@ protected:
 
 	UPROPERTY(BlueprintReadOnly, Category = "Widget Controller")
 	TObjectPtr<UAttributeSet> AttributeSet;
+	//
 
 
 	
