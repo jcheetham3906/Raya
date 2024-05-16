@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.MongoDB", "../../
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Perforce.Managed", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.Perforce.Managed/EpicGames.Perforce.Managed.csproj", "{AD038EEE-97B2-3037-95D0-E5DA54C07AD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Core.Tests", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.Core.Tests/EpicGames.Core.Tests.csproj", "{5CFC72F9-5C70-3D1E-8149-61B608EE63E4}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Jupiter", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.Jupiter/EpicGames.Jupiter.csproj", "{1E93B070-081F-3075-BE21-738D479E3CE4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.BuildGraph", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.BuildGraph/EpicGames.BuildGraph.csproj", "{766B47EA-8309-3D89-936A-BF8E6245716A}"
@@ -81,11 +83,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.MsBuild", "../../
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Perforce", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.Perforce/EpicGames.Perforce.csproj", "{8E91983F-9EDF-397A-B9B8-29B8E34067B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Redis.Tests", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.Redis.Tests/EpicGames.Redis.Tests.csproj", "{DCCB67A8-DCB5-36EF-A348-E58BDC97C756}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Tracing", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.Tracing/EpicGames.Tracing.csproj", "{769A6E07-3E5A-309F-AC5A-4FFC3776BB96}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.AspNet", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.AspNet/EpicGames.AspNet.csproj", "{60469FEA-0F9D-3E58-9301-3733C4413A65}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.OIDC", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.OIDC/EpicGames.OIDC.csproj", "{F03327D2-FF9B-3DDD-B126-DCA2F77247F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Horde.Tests", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.Horde.Tests/EpicGames.Horde.Tests.csproj", "{B0EE82A3-2E54-3C7C-82CD-D6C925B88BB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Horde", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.Horde/EpicGames.Horde.csproj", "{D329A36E-B172-37C8-B737-3E005337CC14}"
 EndProject
@@ -93,11 +99,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.IoHash", "../../.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Serialization", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.Serialization/EpicGames.Serialization.csproj", "{F444A6AC-7D88-34FC-8D80-D301364FCD67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.IoHash.Tests", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.IoHash.Tests/EpicGames.IoHash.Tests.csproj", "{DE961B64-FCE2-302C-8632-4DFE2392BDC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Serialization.Tests", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.Serialization.Tests/EpicGames.Serialization.Tests.csproj", "{A64590DF-128C-37E6-947E-6877B5E75B6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Tracing.Tests", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.Tracing.Tests/EpicGames.Tracing.Tests.csproj", "{BFC40BF7-756B-3015-8D1A-74EF679A326A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Perforce.Tests", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.Perforce.Tests/EpicGames.Perforce.Tests.csproj", "{809C3EF7-9859-354A-A6B3-CE4215F91095}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.BuildGraph.Tests", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.BuildGraph.Tests/EpicGames.BuildGraph.Tests.csproj", "{8F345A13-5920-3DB2-A72C-FC4CD973B4E0}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Redis", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.Redis/EpicGames.Redis.csproj", "{24ED8D0F-248F-3E79-9256-5684A8735BAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Perforce.Managed.Tests", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.Perforce.Managed.Tests/EpicGames.Perforce.Managed.Tests.csproj", "{51D68E3A-805A-36DC-AEDB-57D6B3BDB264}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.UHT", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.UHT/EpicGames.UHT.csproj", "{6FF6DBC3-AAEE-3AF9-A977-4A49A0C1A0A2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Box", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/Shared/EpicGames.Box/EpicGames.Box.csproj", "{28834C99-8FBD-3EF1-BF76-E8E4BACCC160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationToolLauncher", "../../../../../Shared/Epic Games/UE_5.3/Engine/Source/Programs/AutomationToolLauncher/AutomationToolLauncher.csproj", "{36E54CFC-2D3A-3484-A836-A4BF92A8844F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RayaModuleRules", "Intermediate/Build/BuildRulesProjects/RayaModuleRules/RayaModuleRules.csproj", "{8C4C7168-2AEA-3350-9C1D-26724C650E90}"
 EndProject
@@ -427,6 +447,18 @@ Global
 		{AD038EEE-97B2-3037-95D0-E5DA54C07AD4}.Shipping|IOS.Build.0 = Development|Any CPU
 		{AD038EEE-97B2-3037-95D0-E5DA54C07AD4}.Shipping|Mac.ActiveCfg = Development|Any CPU
 		{AD038EEE-97B2-3037-95D0-E5DA54C07AD4}.Shipping|Mac.Build.0 = Development|Any CPU
+		{5CFC72F9-5C70-3D1E-8149-61B608EE63E4}.DebugGame|IOS.ActiveCfg = Development|Any CPU
+		{5CFC72F9-5C70-3D1E-8149-61B608EE63E4}.DebugGame|IOS.Build.0 = Development|Any CPU
+		{5CFC72F9-5C70-3D1E-8149-61B608EE63E4}.DebugGame|Mac.ActiveCfg = Development|Any CPU
+		{5CFC72F9-5C70-3D1E-8149-61B608EE63E4}.DebugGame|Mac.Build.0 = Development|Any CPU
+		{5CFC72F9-5C70-3D1E-8149-61B608EE63E4}.Development|IOS.ActiveCfg = Development|Any CPU
+		{5CFC72F9-5C70-3D1E-8149-61B608EE63E4}.Development|IOS.Build.0 = Development|Any CPU
+		{5CFC72F9-5C70-3D1E-8149-61B608EE63E4}.Development|Mac.ActiveCfg = Development|Any CPU
+		{5CFC72F9-5C70-3D1E-8149-61B608EE63E4}.Development|Mac.Build.0 = Development|Any CPU
+		{5CFC72F9-5C70-3D1E-8149-61B608EE63E4}.Shipping|IOS.ActiveCfg = Development|Any CPU
+		{5CFC72F9-5C70-3D1E-8149-61B608EE63E4}.Shipping|IOS.Build.0 = Development|Any CPU
+		{5CFC72F9-5C70-3D1E-8149-61B608EE63E4}.Shipping|Mac.ActiveCfg = Development|Any CPU
+		{5CFC72F9-5C70-3D1E-8149-61B608EE63E4}.Shipping|Mac.Build.0 = Development|Any CPU
 		{1E93B070-081F-3075-BE21-738D479E3CE4}.DebugGame|IOS.ActiveCfg = Development|Any CPU
 		{1E93B070-081F-3075-BE21-738D479E3CE4}.DebugGame|IOS.Build.0 = Development|Any CPU
 		{1E93B070-081F-3075-BE21-738D479E3CE4}.DebugGame|Mac.ActiveCfg = Development|Any CPU
@@ -535,6 +567,18 @@ Global
 		{8E91983F-9EDF-397A-B9B8-29B8E34067B4}.Shipping|IOS.Build.0 = Development|Any CPU
 		{8E91983F-9EDF-397A-B9B8-29B8E34067B4}.Shipping|Mac.ActiveCfg = Development|Any CPU
 		{8E91983F-9EDF-397A-B9B8-29B8E34067B4}.Shipping|Mac.Build.0 = Development|Any CPU
+		{DCCB67A8-DCB5-36EF-A348-E58BDC97C756}.DebugGame|IOS.ActiveCfg = Development|Any CPU
+		{DCCB67A8-DCB5-36EF-A348-E58BDC97C756}.DebugGame|IOS.Build.0 = Development|Any CPU
+		{DCCB67A8-DCB5-36EF-A348-E58BDC97C756}.DebugGame|Mac.ActiveCfg = Development|Any CPU
+		{DCCB67A8-DCB5-36EF-A348-E58BDC97C756}.DebugGame|Mac.Build.0 = Development|Any CPU
+		{DCCB67A8-DCB5-36EF-A348-E58BDC97C756}.Development|IOS.ActiveCfg = Development|Any CPU
+		{DCCB67A8-DCB5-36EF-A348-E58BDC97C756}.Development|IOS.Build.0 = Development|Any CPU
+		{DCCB67A8-DCB5-36EF-A348-E58BDC97C756}.Development|Mac.ActiveCfg = Development|Any CPU
+		{DCCB67A8-DCB5-36EF-A348-E58BDC97C756}.Development|Mac.Build.0 = Development|Any CPU
+		{DCCB67A8-DCB5-36EF-A348-E58BDC97C756}.Shipping|IOS.ActiveCfg = Development|Any CPU
+		{DCCB67A8-DCB5-36EF-A348-E58BDC97C756}.Shipping|IOS.Build.0 = Development|Any CPU
+		{DCCB67A8-DCB5-36EF-A348-E58BDC97C756}.Shipping|Mac.ActiveCfg = Development|Any CPU
+		{DCCB67A8-DCB5-36EF-A348-E58BDC97C756}.Shipping|Mac.Build.0 = Development|Any CPU
 		{769A6E07-3E5A-309F-AC5A-4FFC3776BB96}.DebugGame|IOS.ActiveCfg = Development|Any CPU
 		{769A6E07-3E5A-309F-AC5A-4FFC3776BB96}.DebugGame|IOS.Build.0 = Development|Any CPU
 		{769A6E07-3E5A-309F-AC5A-4FFC3776BB96}.DebugGame|Mac.ActiveCfg = Development|Any CPU
@@ -571,6 +615,18 @@ Global
 		{F03327D2-FF9B-3DDD-B126-DCA2F77247F1}.Shipping|IOS.Build.0 = Development|Any CPU
 		{F03327D2-FF9B-3DDD-B126-DCA2F77247F1}.Shipping|Mac.ActiveCfg = Development|Any CPU
 		{F03327D2-FF9B-3DDD-B126-DCA2F77247F1}.Shipping|Mac.Build.0 = Development|Any CPU
+		{B0EE82A3-2E54-3C7C-82CD-D6C925B88BB0}.DebugGame|IOS.ActiveCfg = Development|Any CPU
+		{B0EE82A3-2E54-3C7C-82CD-D6C925B88BB0}.DebugGame|IOS.Build.0 = Development|Any CPU
+		{B0EE82A3-2E54-3C7C-82CD-D6C925B88BB0}.DebugGame|Mac.ActiveCfg = Development|Any CPU
+		{B0EE82A3-2E54-3C7C-82CD-D6C925B88BB0}.DebugGame|Mac.Build.0 = Development|Any CPU
+		{B0EE82A3-2E54-3C7C-82CD-D6C925B88BB0}.Development|IOS.ActiveCfg = Development|Any CPU
+		{B0EE82A3-2E54-3C7C-82CD-D6C925B88BB0}.Development|IOS.Build.0 = Development|Any CPU
+		{B0EE82A3-2E54-3C7C-82CD-D6C925B88BB0}.Development|Mac.ActiveCfg = Development|Any CPU
+		{B0EE82A3-2E54-3C7C-82CD-D6C925B88BB0}.Development|Mac.Build.0 = Development|Any CPU
+		{B0EE82A3-2E54-3C7C-82CD-D6C925B88BB0}.Shipping|IOS.ActiveCfg = Development|Any CPU
+		{B0EE82A3-2E54-3C7C-82CD-D6C925B88BB0}.Shipping|IOS.Build.0 = Development|Any CPU
+		{B0EE82A3-2E54-3C7C-82CD-D6C925B88BB0}.Shipping|Mac.ActiveCfg = Development|Any CPU
+		{B0EE82A3-2E54-3C7C-82CD-D6C925B88BB0}.Shipping|Mac.Build.0 = Development|Any CPU
 		{D329A36E-B172-37C8-B737-3E005337CC14}.DebugGame|IOS.ActiveCfg = Development|Any CPU
 		{D329A36E-B172-37C8-B737-3E005337CC14}.DebugGame|IOS.Build.0 = Development|Any CPU
 		{D329A36E-B172-37C8-B737-3E005337CC14}.DebugGame|Mac.ActiveCfg = Development|Any CPU
@@ -607,6 +663,66 @@ Global
 		{F444A6AC-7D88-34FC-8D80-D301364FCD67}.Shipping|IOS.Build.0 = Development|Any CPU
 		{F444A6AC-7D88-34FC-8D80-D301364FCD67}.Shipping|Mac.ActiveCfg = Development|Any CPU
 		{F444A6AC-7D88-34FC-8D80-D301364FCD67}.Shipping|Mac.Build.0 = Development|Any CPU
+		{DE961B64-FCE2-302C-8632-4DFE2392BDC3}.DebugGame|IOS.ActiveCfg = Development|Any CPU
+		{DE961B64-FCE2-302C-8632-4DFE2392BDC3}.DebugGame|IOS.Build.0 = Development|Any CPU
+		{DE961B64-FCE2-302C-8632-4DFE2392BDC3}.DebugGame|Mac.ActiveCfg = Development|Any CPU
+		{DE961B64-FCE2-302C-8632-4DFE2392BDC3}.DebugGame|Mac.Build.0 = Development|Any CPU
+		{DE961B64-FCE2-302C-8632-4DFE2392BDC3}.Development|IOS.ActiveCfg = Development|Any CPU
+		{DE961B64-FCE2-302C-8632-4DFE2392BDC3}.Development|IOS.Build.0 = Development|Any CPU
+		{DE961B64-FCE2-302C-8632-4DFE2392BDC3}.Development|Mac.ActiveCfg = Development|Any CPU
+		{DE961B64-FCE2-302C-8632-4DFE2392BDC3}.Development|Mac.Build.0 = Development|Any CPU
+		{DE961B64-FCE2-302C-8632-4DFE2392BDC3}.Shipping|IOS.ActiveCfg = Development|Any CPU
+		{DE961B64-FCE2-302C-8632-4DFE2392BDC3}.Shipping|IOS.Build.0 = Development|Any CPU
+		{DE961B64-FCE2-302C-8632-4DFE2392BDC3}.Shipping|Mac.ActiveCfg = Development|Any CPU
+		{DE961B64-FCE2-302C-8632-4DFE2392BDC3}.Shipping|Mac.Build.0 = Development|Any CPU
+		{A64590DF-128C-37E6-947E-6877B5E75B6A}.DebugGame|IOS.ActiveCfg = Development|Any CPU
+		{A64590DF-128C-37E6-947E-6877B5E75B6A}.DebugGame|IOS.Build.0 = Development|Any CPU
+		{A64590DF-128C-37E6-947E-6877B5E75B6A}.DebugGame|Mac.ActiveCfg = Development|Any CPU
+		{A64590DF-128C-37E6-947E-6877B5E75B6A}.DebugGame|Mac.Build.0 = Development|Any CPU
+		{A64590DF-128C-37E6-947E-6877B5E75B6A}.Development|IOS.ActiveCfg = Development|Any CPU
+		{A64590DF-128C-37E6-947E-6877B5E75B6A}.Development|IOS.Build.0 = Development|Any CPU
+		{A64590DF-128C-37E6-947E-6877B5E75B6A}.Development|Mac.ActiveCfg = Development|Any CPU
+		{A64590DF-128C-37E6-947E-6877B5E75B6A}.Development|Mac.Build.0 = Development|Any CPU
+		{A64590DF-128C-37E6-947E-6877B5E75B6A}.Shipping|IOS.ActiveCfg = Development|Any CPU
+		{A64590DF-128C-37E6-947E-6877B5E75B6A}.Shipping|IOS.Build.0 = Development|Any CPU
+		{A64590DF-128C-37E6-947E-6877B5E75B6A}.Shipping|Mac.ActiveCfg = Development|Any CPU
+		{A64590DF-128C-37E6-947E-6877B5E75B6A}.Shipping|Mac.Build.0 = Development|Any CPU
+		{BFC40BF7-756B-3015-8D1A-74EF679A326A}.DebugGame|IOS.ActiveCfg = Development|Any CPU
+		{BFC40BF7-756B-3015-8D1A-74EF679A326A}.DebugGame|IOS.Build.0 = Development|Any CPU
+		{BFC40BF7-756B-3015-8D1A-74EF679A326A}.DebugGame|Mac.ActiveCfg = Development|Any CPU
+		{BFC40BF7-756B-3015-8D1A-74EF679A326A}.DebugGame|Mac.Build.0 = Development|Any CPU
+		{BFC40BF7-756B-3015-8D1A-74EF679A326A}.Development|IOS.ActiveCfg = Development|Any CPU
+		{BFC40BF7-756B-3015-8D1A-74EF679A326A}.Development|IOS.Build.0 = Development|Any CPU
+		{BFC40BF7-756B-3015-8D1A-74EF679A326A}.Development|Mac.ActiveCfg = Development|Any CPU
+		{BFC40BF7-756B-3015-8D1A-74EF679A326A}.Development|Mac.Build.0 = Development|Any CPU
+		{BFC40BF7-756B-3015-8D1A-74EF679A326A}.Shipping|IOS.ActiveCfg = Development|Any CPU
+		{BFC40BF7-756B-3015-8D1A-74EF679A326A}.Shipping|IOS.Build.0 = Development|Any CPU
+		{BFC40BF7-756B-3015-8D1A-74EF679A326A}.Shipping|Mac.ActiveCfg = Development|Any CPU
+		{BFC40BF7-756B-3015-8D1A-74EF679A326A}.Shipping|Mac.Build.0 = Development|Any CPU
+		{809C3EF7-9859-354A-A6B3-CE4215F91095}.DebugGame|IOS.ActiveCfg = Development|Any CPU
+		{809C3EF7-9859-354A-A6B3-CE4215F91095}.DebugGame|IOS.Build.0 = Development|Any CPU
+		{809C3EF7-9859-354A-A6B3-CE4215F91095}.DebugGame|Mac.ActiveCfg = Development|Any CPU
+		{809C3EF7-9859-354A-A6B3-CE4215F91095}.DebugGame|Mac.Build.0 = Development|Any CPU
+		{809C3EF7-9859-354A-A6B3-CE4215F91095}.Development|IOS.ActiveCfg = Development|Any CPU
+		{809C3EF7-9859-354A-A6B3-CE4215F91095}.Development|IOS.Build.0 = Development|Any CPU
+		{809C3EF7-9859-354A-A6B3-CE4215F91095}.Development|Mac.ActiveCfg = Development|Any CPU
+		{809C3EF7-9859-354A-A6B3-CE4215F91095}.Development|Mac.Build.0 = Development|Any CPU
+		{809C3EF7-9859-354A-A6B3-CE4215F91095}.Shipping|IOS.ActiveCfg = Development|Any CPU
+		{809C3EF7-9859-354A-A6B3-CE4215F91095}.Shipping|IOS.Build.0 = Development|Any CPU
+		{809C3EF7-9859-354A-A6B3-CE4215F91095}.Shipping|Mac.ActiveCfg = Development|Any CPU
+		{809C3EF7-9859-354A-A6B3-CE4215F91095}.Shipping|Mac.Build.0 = Development|Any CPU
+		{8F345A13-5920-3DB2-A72C-FC4CD973B4E0}.DebugGame|IOS.ActiveCfg = Development|Any CPU
+		{8F345A13-5920-3DB2-A72C-FC4CD973B4E0}.DebugGame|IOS.Build.0 = Development|Any CPU
+		{8F345A13-5920-3DB2-A72C-FC4CD973B4E0}.DebugGame|Mac.ActiveCfg = Development|Any CPU
+		{8F345A13-5920-3DB2-A72C-FC4CD973B4E0}.DebugGame|Mac.Build.0 = Development|Any CPU
+		{8F345A13-5920-3DB2-A72C-FC4CD973B4E0}.Development|IOS.ActiveCfg = Development|Any CPU
+		{8F345A13-5920-3DB2-A72C-FC4CD973B4E0}.Development|IOS.Build.0 = Development|Any CPU
+		{8F345A13-5920-3DB2-A72C-FC4CD973B4E0}.Development|Mac.ActiveCfg = Development|Any CPU
+		{8F345A13-5920-3DB2-A72C-FC4CD973B4E0}.Development|Mac.Build.0 = Development|Any CPU
+		{8F345A13-5920-3DB2-A72C-FC4CD973B4E0}.Shipping|IOS.ActiveCfg = Development|Any CPU
+		{8F345A13-5920-3DB2-A72C-FC4CD973B4E0}.Shipping|IOS.Build.0 = Development|Any CPU
+		{8F345A13-5920-3DB2-A72C-FC4CD973B4E0}.Shipping|Mac.ActiveCfg = Development|Any CPU
+		{8F345A13-5920-3DB2-A72C-FC4CD973B4E0}.Shipping|Mac.Build.0 = Development|Any CPU
 		{24ED8D0F-248F-3E79-9256-5684A8735BAA}.DebugGame|IOS.ActiveCfg = Development|Any CPU
 		{24ED8D0F-248F-3E79-9256-5684A8735BAA}.DebugGame|IOS.Build.0 = Development|Any CPU
 		{24ED8D0F-248F-3E79-9256-5684A8735BAA}.DebugGame|Mac.ActiveCfg = Development|Any CPU
@@ -619,6 +735,18 @@ Global
 		{24ED8D0F-248F-3E79-9256-5684A8735BAA}.Shipping|IOS.Build.0 = Development|Any CPU
 		{24ED8D0F-248F-3E79-9256-5684A8735BAA}.Shipping|Mac.ActiveCfg = Development|Any CPU
 		{24ED8D0F-248F-3E79-9256-5684A8735BAA}.Shipping|Mac.Build.0 = Development|Any CPU
+		{51D68E3A-805A-36DC-AEDB-57D6B3BDB264}.DebugGame|IOS.ActiveCfg = Development|Any CPU
+		{51D68E3A-805A-36DC-AEDB-57D6B3BDB264}.DebugGame|IOS.Build.0 = Development|Any CPU
+		{51D68E3A-805A-36DC-AEDB-57D6B3BDB264}.DebugGame|Mac.ActiveCfg = Development|Any CPU
+		{51D68E3A-805A-36DC-AEDB-57D6B3BDB264}.DebugGame|Mac.Build.0 = Development|Any CPU
+		{51D68E3A-805A-36DC-AEDB-57D6B3BDB264}.Development|IOS.ActiveCfg = Development|Any CPU
+		{51D68E3A-805A-36DC-AEDB-57D6B3BDB264}.Development|IOS.Build.0 = Development|Any CPU
+		{51D68E3A-805A-36DC-AEDB-57D6B3BDB264}.Development|Mac.ActiveCfg = Development|Any CPU
+		{51D68E3A-805A-36DC-AEDB-57D6B3BDB264}.Development|Mac.Build.0 = Development|Any CPU
+		{51D68E3A-805A-36DC-AEDB-57D6B3BDB264}.Shipping|IOS.ActiveCfg = Development|Any CPU
+		{51D68E3A-805A-36DC-AEDB-57D6B3BDB264}.Shipping|IOS.Build.0 = Development|Any CPU
+		{51D68E3A-805A-36DC-AEDB-57D6B3BDB264}.Shipping|Mac.ActiveCfg = Development|Any CPU
+		{51D68E3A-805A-36DC-AEDB-57D6B3BDB264}.Shipping|Mac.Build.0 = Development|Any CPU
 		{6FF6DBC3-AAEE-3AF9-A977-4A49A0C1A0A2}.DebugGame|IOS.ActiveCfg = Development|Any CPU
 		{6FF6DBC3-AAEE-3AF9-A977-4A49A0C1A0A2}.DebugGame|IOS.Build.0 = Development|Any CPU
 		{6FF6DBC3-AAEE-3AF9-A977-4A49A0C1A0A2}.DebugGame|Mac.ActiveCfg = Development|Any CPU
@@ -643,6 +771,18 @@ Global
 		{28834C99-8FBD-3EF1-BF76-E8E4BACCC160}.Shipping|IOS.Build.0 = Development|Any CPU
 		{28834C99-8FBD-3EF1-BF76-E8E4BACCC160}.Shipping|Mac.ActiveCfg = Development|Any CPU
 		{28834C99-8FBD-3EF1-BF76-E8E4BACCC160}.Shipping|Mac.Build.0 = Development|Any CPU
+		{36E54CFC-2D3A-3484-A836-A4BF92A8844F}.DebugGame|IOS.ActiveCfg = Development|Any CPU
+		{36E54CFC-2D3A-3484-A836-A4BF92A8844F}.DebugGame|IOS.Build.0 = Development|Any CPU
+		{36E54CFC-2D3A-3484-A836-A4BF92A8844F}.DebugGame|Mac.ActiveCfg = Development|Any CPU
+		{36E54CFC-2D3A-3484-A836-A4BF92A8844F}.DebugGame|Mac.Build.0 = Development|Any CPU
+		{36E54CFC-2D3A-3484-A836-A4BF92A8844F}.Development|IOS.ActiveCfg = Development|Any CPU
+		{36E54CFC-2D3A-3484-A836-A4BF92A8844F}.Development|IOS.Build.0 = Development|Any CPU
+		{36E54CFC-2D3A-3484-A836-A4BF92A8844F}.Development|Mac.ActiveCfg = Development|Any CPU
+		{36E54CFC-2D3A-3484-A836-A4BF92A8844F}.Development|Mac.Build.0 = Development|Any CPU
+		{36E54CFC-2D3A-3484-A836-A4BF92A8844F}.Shipping|IOS.ActiveCfg = Development|Any CPU
+		{36E54CFC-2D3A-3484-A836-A4BF92A8844F}.Shipping|IOS.Build.0 = Development|Any CPU
+		{36E54CFC-2D3A-3484-A836-A4BF92A8844F}.Shipping|Mac.ActiveCfg = Development|Any CPU
+		{36E54CFC-2D3A-3484-A836-A4BF92A8844F}.Shipping|Mac.Build.0 = Development|Any CPU
 		{8C4C7168-2AEA-3350-9C1D-26724C650E90}.DebugGame|IOS.ActiveCfg = Development|Any CPU
 		{8C4C7168-2AEA-3350-9C1D-26724C650E90}.DebugGame|IOS.Build.0 = Development|Any CPU
 		{8C4C7168-2AEA-3350-9C1D-26724C650E90}.DebugGame|Mac.ActiveCfg = Development|Any CPU
@@ -698,6 +838,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BA643C0D-FE55-355F-94E2-FFA6B50EA5A0} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
 		{EBD8976D-C225-3BD8-8B52-7BFB4A6401AB} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{36E54CFC-2D3A-3484-A836-A4BF92A8844F} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
 		{0BFBE63A-B98A-3411-8EEB-8918FEC737B3} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
 		{7B5CFB44-F0FB-31DF-AE62-C3C096A29A7B} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
 		{57713676-9DBE-331C-AD10-26632AC9EE0C} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
@@ -724,6 +865,7 @@ Global
 		{D0F7BF48-A0B8-37C4-983C-9D497CFE1DE9} = {7B5CFB44-F0FB-31DF-AE62-C3C096A29A7B}
 		{2A1FEF98-5A4E-3012-A2C2-56338E249140} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
 		{AD038EEE-97B2-3037-95D0-E5DA54C07AD4} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{5CFC72F9-5C70-3D1E-8149-61B608EE63E4} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
 		{1E93B070-081F-3075-BE21-738D479E3CE4} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
 		{766B47EA-8309-3D89-936A-BF8E6245716A} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
 		{55AE3B19-F452-3364-A238-62E41DFD717B} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
@@ -733,13 +875,21 @@ Global
 		{05E9C5EF-DE2D-38EF-9700-D05FC4FDF6D6} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
 		{2AB1B235-972D-31FB-B8EF-6E5214B63349} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
 		{8E91983F-9EDF-397A-B9B8-29B8E34067B4} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{DCCB67A8-DCB5-36EF-A348-E58BDC97C756} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
 		{769A6E07-3E5A-309F-AC5A-4FFC3776BB96} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
 		{60469FEA-0F9D-3E58-9301-3733C4413A65} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
 		{F03327D2-FF9B-3DDD-B126-DCA2F77247F1} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{B0EE82A3-2E54-3C7C-82CD-D6C925B88BB0} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
 		{D329A36E-B172-37C8-B737-3E005337CC14} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
 		{BEE4E7BA-C5E4-32B5-847D-81BB48C1FC25} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
 		{F444A6AC-7D88-34FC-8D80-D301364FCD67} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{DE961B64-FCE2-302C-8632-4DFE2392BDC3} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{A64590DF-128C-37E6-947E-6877B5E75B6A} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{BFC40BF7-756B-3015-8D1A-74EF679A326A} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{809C3EF7-9859-354A-A6B3-CE4215F91095} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{8F345A13-5920-3DB2-A72C-FC4CD973B4E0} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
 		{24ED8D0F-248F-3E79-9256-5684A8735BAA} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{51D68E3A-805A-36DC-AEDB-57D6B3BDB264} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
 		{6FF6DBC3-AAEE-3AF9-A977-4A49A0C1A0A2} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
 		{28834C99-8FBD-3EF1-BF76-E8E4BACCC160} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
 		{8C4C7168-2AEA-3350-9C1D-26724C650E90} = {C2F57ECE-B26F-39D8-BDA7-C1D40BD8F180}

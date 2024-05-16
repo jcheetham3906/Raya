@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
-#include "RayaWidgetControllerClass.generated.h"
+#include "RayaWidgetController.generated.h"
 
 class UAttributeSet;
 class UAbilitySystemComponent;
@@ -38,7 +38,7 @@ struct  FWidgetControllerParams
 };
 
 UCLASS()
-class RAYA_API URayaWidgetControllerClass : public UObject
+class RAYA_API URayaWidgetController : public UObject
 {
 	GENERATED_BODY()
 

@@ -25,6 +25,12 @@
    <Group
       location = "container:"      name = "Programs">
       <Group
+         location = "container:"      name = "LowLevelTests">
+         <FileRef
+            location = "group:Intermediate/ProjectFiles/EventLoopUnitTests (Mac).xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
          location = "container:"      name = "Automation">
       </Group>
       <Group
@@ -33,6 +39,9 @@
       <Group
          location = "container:"      name = "Shared">
       </Group>
+      <FileRef
+         location = "group:Intermediate/ProjectFiles/DotNetPerforceLib (Mac).xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "container:"      name = "Rules">

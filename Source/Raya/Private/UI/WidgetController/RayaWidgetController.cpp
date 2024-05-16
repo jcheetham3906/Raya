@@ -1,9 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "UI/WidgetController/RayaWidgetControllerClass.h"
+#include "UI/WidgetController/RayaWidgetController.h"
 
-void URayaWidgetControllerClass::SetWidgetControllerParams(const FWidgetControllerParams& WCParams)
+void URayaWidgetController::SetWidgetControllerParams(const FWidgetControllerParams& WCParams)
 {
 	AttributeSet = WCParams.AttributeSet;
 	PlayerController = WCParams.PlayerController;
